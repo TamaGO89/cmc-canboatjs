@@ -4,7 +4,7 @@ const debug = require('debug')('canboatjs:w2k01')
 const net = require('net');
 const { readN2KActisense } = require('../lib/n2k-actisense')
 
-const argv = require('minimist')(process.argv.slice(2), {
+const argv = require("./utils.js")(process.argv.slice(2), {
   alias: { h: 'help' }
 })
 

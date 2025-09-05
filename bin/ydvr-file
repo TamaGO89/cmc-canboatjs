@@ -2,7 +2,7 @@
 
 const YdvrStream = require('../lib/ydvr.js');
 
-const argv = require('minimist')(process.argv.slice(2), {
+const argv = require("./utils.js")(process.argv.slice(2), {
   alias: { h: 'help' },
 });
 

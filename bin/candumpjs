@@ -8,7 +8,7 @@ const socketcan = require('socketcan')
 var parser = new canboatjs.FromPgn()
 
 
-const argv = require('minimist')(process.argv.slice(2), {
+const argv = require("./utils.js")(process.argv.slice(2), {
   alias: { h: 'help' }
 })
 

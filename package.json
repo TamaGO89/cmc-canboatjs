@@ -3,13 +3,6 @@
   "version": "2.12.1-beta.0",
   "description": "Native javascript version of canboat",
   "main": "index.js",
-  "scripts": {
-    "dev-test": "jest --watch",
-    "test": "jest && mocha --exit",
-    "code-coverage": "jest --coverage && nyc mocha --exit",
-    "build_ios": "webpack -c ./webpack.config.js --mode development ./ios.js -o ios_canboat.js",
-    "build_prod_ios": "webpack -c ./webpack.config.js --mode production ./ios.js -o ios_canboat.js"
-  },
   "bin": {
     "analyzerjs": "./bin/analyzerjs",
     "to-pgn": "./bin/to-pgn",
@@ -19,9 +12,6 @@
     "actisense-n2k-tcp": "./bin/actisense-n2k-tcp",
     "candumpjs": "./bin/candumpjs",
     "ikonvert-serial": "./bin/ikonvert-serial"
-  },
-  "jest": {
-    "rootDir": "lib"
   },
   "keywords": [
     "boat",
@@ -76,7 +66,6 @@
     "chai-json-equal": "0.0.1",
     "chai-string": "^1.5.0",
     "chai-things": "^0.2.0",
-    "jest": "^24.9.0",
     "mocha": "^5.0.0",
     "nyc": "^15.1.0",
     "test": "^3.3.0",
