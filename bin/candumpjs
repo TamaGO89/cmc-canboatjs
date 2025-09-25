@@ -3,7 +3,7 @@
 const canboatjs = require('../index')
 const Parser = require('../index').FromPgn
 const { parseCanId } = require('../lib/canId')
-const socketcan = require('socketcan')
+const socketcan = require("@tamago89/socketcan")
 
 var parser = new canboatjs.FromPgn()
 

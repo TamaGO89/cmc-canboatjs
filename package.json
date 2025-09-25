@@ -1,6 +1,6 @@
 {
-  "name": "@canboat/canboatjs",
-  "version": "2.12.1-fork.0",
+  "name": "@tamago89/canboatjs",
+  "version": "2.12.1-fork.4",
   "description": "Native javascript version of canboat",
   "main": "index.js",
   "bin": {
@@ -54,8 +54,8 @@
     "int64-buffer": "^0.1.10",
     "lodash": "^4.17.4",
     "moment": "^2.30.1",
-    "mqtt": "^2.18.8",
-    "split": "^1.0.1"
+    "split": "^1.0.1",
+    "@tamago89/socketcan": "^4.0.7-fork.6"
   },
   "devDependencies": {
     "@signalk/server-api": "^1.39.0",
@@ -70,8 +70,7 @@
     "webpack-cli": "^5.1.4"
   },
   "optionalDependencies": {
-    "serialport": "11.x.x",
-    "socketcan": "^4.0.3"
+    "serialport": "10.5.x"
   },
   "repository": {
     "type": "git",
