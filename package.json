@@ -1,6 +1,6 @@
 {
   "name": "@tamago89/canboatjs",
-  "version": "2.12.1-fork.4",
+  "version": "2.12.1-fork.6",
   "description": "Native javascript version of canboat",
   "main": "index.js",
   "bin": {
@@ -47,7 +47,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "@canboat/pgns": "5.1.x",
+    "@tamago89/pgns": "6.0.0-beta",
     "bit-buffer": "0.2.3",
     "debug": "^4.3.4",
     "dnssd": "^0.4.1",
